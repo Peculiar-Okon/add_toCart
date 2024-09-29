@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./add.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>
+</head>
+<body>
+    <div class="logo">
+        <h1>LOGO</h1>
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-solid fa-cart-shopping"></i>
+    </div>
+
+    <div class="flex_c">
+        <div>
+           <img src="./IMAGES/phoneimg.jpeg" alt=""> 
+           <h2>Flip Mobile</h2>
+           <h3>$130.00</h3>
+           <button class="add-to-cart" data-name="Flip Mobile" data-price="130.00">Add to Cart</button>
+        </div>
+        
+        <div>
+            <img src="./IMAGES/airpodimg.jpeg" alt="">
+            <h2>Airpods Max</h2>
+            <h3>$80.00</h3>
+            <button class="add-to-cart" data-name="Airpods Max" data-price="80.00">Add to Cart</button>
+        </div>
+    </div>
+
+    <div class="flex_co">
+        <div>
+            <img src="./IMAGES/camimg.jpeg" alt=""> 
+            <h2>Canon Cam</h2>
+            <h3>$150.00</h3>
+            <button class="add-to-cart" data-name="Canon Cam" data-price="150.00">Add to Cart</button>
+         </div>
+         
+         <div>
+             <img src="./IMAGES/headsetimg.jpeg" alt="">
+             <h2>Headphone Max</h2>
+             <h3>$110.00</h3>
+             <button class="add-to-cart" data-name="Headphone Max" data-price="110.00">Add to Cart</button>
+         </div>
+    </div>
+
+    <div class="carty">
+        <div class="car">
+            <h1>My Cart</h1>
+        </div>
+
+        <h2 id="cart-status">Your Cart is empty</h2>
+        <div class="line"></div>
+        <div id="cart-items"></div>
+        <h3>Total</h3>
+        <h4 id="total-price">$0.00</h4>
+
+        <button id="clr" onclick="clearDisplay()">Clear</button>
+    </div>
+    <script src="./add.js"></script>
+</body>
+</html>

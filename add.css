@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vh;
+}
+
+.logo{
+    position: absolute;
+    margin-top: 5%;
+    width: 80vh;
+    margin-left: 8%;
+    background-color: #d4af37;
+    height: 40px;
+}
+
+.logo h1{
+    color: #ffffff;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.flex_c{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    position: absolute;
+    margin-top: 12%;
+    margin-left: 8%;
+}
+
+.flex_c div{
+    border: 2px solid #d4af37;
+    width: 35vh;
+    padding: 20px;
+    height: 350px;
+    border-radius: 5px;
+}
+
+.flex_c div img{
+    position: relative;
+    width: 90%;
+    height: 55%;
+    left: 5%;
+}
+
+.flex_c div h2{
+    position: relative;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 7%;
+    left: 9%;
+}
+
+.flex_c div h3{
+    position: relative;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+    top: 10%;
+    left: 20%;
+}
+
+.flex_c div button{
+    position: relative;
+    height: 40px;
+    width: 90%;
+    color: #ffffff;
+    background-color: #d4af37;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 13%;
+    left: 5%;
+}
+
+.flex_co{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    position: absolute;
+    margin-top: 45%;
+    margin-left: 8%;
+}
+
+.flex_co div{
+    border: 2px solid #d4af37;
+    width: 35vh;
+    padding: 20px;
+    height: 350px;
+    border-radius: 5px;
+}
+
+.flex_co div img{
+    position: relative;
+    width: 90%;
+    height: 55%;
+    left: 5%;
+}
+
+.flex_co div h2{
+    position: relative;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 7%;
+    left: 9%;
+}
+
+.flex_co div h3{
+    position: relative;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+    top: 10%;
+    left: 20%;
+}
+
+.flex_co div button{
+    position: relative;
+    height: 40px;
+    width: 90%;
+    color: #ffffff;
+    background-color: #d4af37;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 13%;
+    left: 5%;
+}
+
+.carty{
+    position: absolute;
+    margin-top: 12%;
+    margin-left: 53%;
+    width: 45vh;
+    height: 100%;
+    border: 2px solid #d4af37;
+    border-radius: 5px;
+}
+
+.carty .car{
+    position: relative;
+    top: 2%;
+    width: 90%;
+    left: 4%;
+    height: 7%;
+    background-color: #d4af37;
+    border-radius: 5px;
+    padding: 3.5%;
+}
+
+.carty div h1{
+   color: #ffffff;
+   font-size: 20px;
+   font-family: 'Times New Roman', Times, serif;
+}
+
+.carty h2{
+    font-size: 18px;
+    position: relative;
+    text-align: center;
+    top: 4%;
+}
+
+.line{
+    background-color: black;
+    height: 5px;
+    left: 4%;
+    position: relative;
+    border-radius: 5px;
+    width: 90%;
+    top: 7%;
+}
+
+.carty h3{
+    font-size: 19px;
+    position: relative;
+    top: 7.5%;
+    left: 4%;
+}
+
+.carty h4{
+    font-size: 19px;
+    position: relative;
+    top: 4%;
+    left: 78%;
+    color: red;
+}
+
+.carty button{
+    position: relative;
+    top: 10%;
+    width: 90%;
+    left: 4%;
+    height: 7%;
+    background-color: #d4af37;
+    border-radius: 5px;
+    padding: 3.5%;
+    color: #ffffff;
+}
+
+@media only screen and (min-width:350px) and (max-width: 440px){
+    body{
+        padding: 10px;
+    }
+
+    .flex_c{
+        position: absolute;
+        margin-top: 21%;
+        margin-left: 8%;
+        width: 55vh;
+        gap: 1rem;
+        height: 60vh;
+    }
+
+    .flex_co{
+        position: absolute;
+        margin-top: 120%;
+        margin-left: 8%;
+        width: 55vh;
+        gap: 1rem;
+        height: 60vh;
+    }
+
+    .carty{
+        position: absolute;
+        margin-top: 21%;
+        margin-left: 131%;
+        width: 35vh;
+        height: 100%;
+    }
+
+
+}
